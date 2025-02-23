@@ -19,6 +19,7 @@ button:hover
 {
   background-color: aliceblue;
 }
+
 img
  {
       
@@ -27,6 +28,11 @@ img
      display: flex; 
     
      
+}
+a{
+   margin-top: 10px;
+   font-style: italic;
+   margin-left: 10%;
 }
 div
 {

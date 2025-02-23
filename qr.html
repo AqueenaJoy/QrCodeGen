@@ -11,6 +11,7 @@
 
       
          <img id="qrImage" src=""> <!--the qr wil b diplayed here..  -->
+         <a id="downloadLink"  download="QRCode.png">Download QR Code</a>
     
     <div>
      <!-- js -->
@@ -24,6 +25,9 @@
     let qrCode = "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=" + encodeURIComponent(input);
     let qrImage = document.getElementById('qrImage');
     qrImage.src = qrCode;
+
+    downloadLink.href = qrCode;
+    downloadLink.innerText = 'Download QR Code';
    
 });
 </script>
