@@ -1,0 +1,37 @@
+
+body 
+   { 
+    font-family: Arial, sans-serif; 
+    text-align: center;
+     margin-top: 70px; 
+     background-color:aliceblue;
+     font-size: 16px;
+    }
+
+input, button 
+{ 
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px; 
+    background-color:rgba(172, 255, 47, 0.459);
+}
+button:hover
+{
+  background-color: aliceblue;
+}
+img
+ {
+      
+     margin-left:40%;
+     padding: 10px;
+     display: flex; 
+    
+     
+}
+div
+{
+  align-items: center;
+  margin-left: 30%;
+  margin-right: 30%;
+  background-color: white;
+}
